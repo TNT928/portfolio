@@ -13,12 +13,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import { BlogComponent } from './blog/blog.component';
 import { AboutComponent } from './about/about.component';
-
-
-
-
-
-
+import {ContactFormComponent} from './contact/contact-form.component'
 
  
 @NgModule({
@@ -28,9 +23,8 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     BlogComponent,
     AboutComponent,
+    ContactFormComponent
   
-    
-   
   ],
   imports: [
     BrowserModule,
