@@ -1,0 +1,105 @@
+.image {
+    z-index: -1;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    background-size: 100vw 100vh;
+    background-image: url(../assets/beach-307114.png);
+  }
+   a .selfie {
+    margin-left: 30px;
+    width: 70px;
+    border-radius: 50%;
+    align-self: center;
+  }
+  
+  i {
+    color: white;
+  }
+  
+  .nav {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    font-weight: bold;
+    opacity: 0.9;
+    font-weight: 200;
+    margin-bottom: 50px;
+    height: 63px;
+    background-color: gray;
+  }
+  
+  .icon {
+    justify-content: flex-start;
+    color: white;
+    cursor: pointer;
+  }
+  .mat-list-item {
+    text-decoration: none;
+  }
+  .listitems {
+    display: flex;
+    flex: 1;
+    margin-top: 1em;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navtext {
+    opacity: none;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+  }
+  
+  mat-sidenav-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  mat-sidenav,
+  mat-sidenav-content {
+    padding: 16px;
+  }
+  
+  mat-sidenav {
+    top: 56px;
+  }
+  
+  mat-sidenav-content {
+    height: auto;
+    padding: 0;
+  }
+  
+  mat-sidenav {
+    background-color: black;
+    text-decoration: none;
+  }
+  
+  mat-side-nav ul {
+    flex-direction: column;
+  }
+  .mat-list-item {
+    color: white;
+  }
+  
+  .mat-list {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @media only screen and (min-width:768px){
+    .nav{
+      height: auto;
+    }
+  }
+  

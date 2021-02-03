@@ -1,0 +1,63 @@
+* {
+  color: black;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: "Marck Script", cursive;
+  justify-content: center;
+  display: flex;
+  color: #e6f024;
+  text-align: center;
+}
+
+.container {
+  width: 100vw;
+}
+
+.heading2 {
+  margin: 20px 0 20px 0;
+  font-size: 3em;
+  color: yellow;
+  font-family: "Marck Script", cursive;
+}
+
+img {
+  display: flex;
+  margin: 50px auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.heading {
+  margin-top: 1.5em;
+  margin-bottom: 0px;
+  color: yellow;
+  font-family: "Marck Script", cursive;
+}
+
+.button {
+  display: flex;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  color: yellow;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 75%;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 6px white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (min-width: 768px) {
+  .button {
+    width: 25%;
+  }
+
+  img {
+    width: 600px;
+  }
+}

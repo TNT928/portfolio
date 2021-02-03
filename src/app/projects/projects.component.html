@@ -1,0 +1,24 @@
+<h1 class="title animate__animated animate__tada">Projects</h1>
+
+<div class="animate__animated animate__zoomInLeft slow">
+  <div *ngFor="let item of projects" class="column">
+    <h1>{{ item.title }}</h1>
+
+    <h3 class="itemDesc">{{ item.description }}</h3>
+    <img src="{{ item.image }}" />
+
+    <a target="”_blank”" href="{{ item.appLink }}">Click here to see App</a>
+
+    <a target="”_blank”" href="{{ item.codeLink }}">Click here to see Code</a>
+  </div>
+</div>
+<div *ngFor="let item of wordpressProjects" class="column">
+  <h1 class="wordpressHeading">Wordpress sites</h1>
+  <h1>{{ item.title }}</h1>
+
+  <h3 class="itemDesc">{{ item.description }}</h3>
+  <img src="{{ item.image }}" />
+ 
+
+  <a target="”_blank”" href="{{ item.appLink }}">Click here to see App</a>
+</div>
