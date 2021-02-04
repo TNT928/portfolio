@@ -4,8 +4,9 @@
   </div>
   <div *ngIf="!(mobile | async).matches" class="listitems">
     <div>
-        <a mat-button [routerLink] = "['/']"  ><img class="selfie" src="assets/Cartoonify.png" alt=""></a>
-   
+      <a mat-button [routerLink]="['/']"
+        ><img class="selfie" src="assets/Cartoonify.png" alt=""
+      /></a>
     </div>
 
     <!-- <a mat-button [routerLink]="['/']">Home</a> -->
@@ -23,7 +24,9 @@
     <mat-list>
       <a mat-list-item (click)="nav.close()" [routerLink]="['/']">Home</a>
       <a mat-list-item (click)="nav.close()" [routerLink]="['/about']">About</a>
-      <a mat-list-item (click)="nav.close()" [routerLink]="['/projects']">Projects</a>
+      <a mat-list-item (click)="nav.close()" [routerLink]="['/projects']"
+        >Projects</a
+      >
       <a mat-list-item (click)="nav.close()" [routerLink]="['/blog']">Blog</a>
       <a mat-list-item (click)="nav.close()" [routerLink]="['/contact']"
         >Contact</a
@@ -38,6 +41,6 @@
     <div class="image">
       <div class="innerimage"></div>
     </div>
-    <router-outlet> </router-outlet>
+    <router-outlet (activate)="onActivate($event)"> </router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

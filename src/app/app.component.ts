@@ -14,6 +14,9 @@ export class AppComponent {
 
   mobile: Observable<BreakpointState> = this.breakpointObserver.observe(Breakpoints.HandsetPortrait)
 
+  onActivate(event) {
+    document.querySelector("mat-sidenav-content").scrollTo(0, 0);
+  }
 
   constructor(private breakpointObserver: BreakpointObserver){}
 }

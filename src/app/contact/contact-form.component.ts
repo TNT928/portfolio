@@ -32,7 +32,7 @@ export class ContactFormComponent implements OnInit {
   success() {
     this.modalOpen = true;
 
-    setTimeout(() =>(this.modalOpen = false), 3000);
+    setTimeout(() => (this.modalOpen = false), 3000);
   }
 
   constructor() {}

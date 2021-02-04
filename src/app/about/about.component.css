@@ -14,7 +14,7 @@ img {
   align-self: center;
   width: 200px;
   border-radius: 10px;
-  box-shadow: 0px 0px 12px 4px white
+  box-shadow: 0px 0px 12px 4px white;
 }
 
 .bio {
@@ -22,32 +22,27 @@ img {
   background-color: white;
   border-radius: 10px;
   font-weight: bold;
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
   text-align: center;
   color: black;
-    text-shadow: -2px -2px 14px white;
+  text-shadow: -2px -2px 14px white;
 }
 
-@media only screen and (min-width:768px){
- 
-
-  img{
+@media only screen and (min-width: 768px) {
+  img {
     width: 300px;
     align-self: center;
     margin: 0 10px 0 10px;
-    
   }
 
-  .aboutme{
+  .aboutme {
     flex-direction: row;
     margin-top: 20%;
   }
 
-  .bio{
-   font-size: 20px;
+  .bio {
+    font-size: 20px;
     align-self: center;
     width: 50%;
-    
   }
 }
-
